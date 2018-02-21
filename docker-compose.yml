@@ -1,0 +1,5 @@
+version: '2'
+services:
+  maven:
+    image: lrkwz/maven:3-jdk-8-alpine
+    build: .
